@@ -1,4 +1,7 @@
-<div>
+<div class="header-toggle">
+  <a (click)="toggleNav()"><img src="../../assets/basic/ic_keyboard_arrow_down_black_24px.svg"></a>
+</div>
+<div *ngIf="showNav == true">
   <a routerLink="/home" routerLinkActive="active">home</a>
   <a routerLink="/talents" routerLinkActive="active">talents</a>
   <a>link</a>
