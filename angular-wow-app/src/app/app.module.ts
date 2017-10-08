@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import { TalentsComponent } from './talents/talents.component';
+import { ClassComponent } from './class/class.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
@@ -33,6 +34,7 @@ const appRoutes: Routes = [
     NavigationComponent,
     HomeComponent,
     TalentsComponent,
+    ClassComponent,
     PageNotFoundComponent
   ],
   imports: [

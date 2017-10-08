@@ -1,0 +1,19 @@
+.classesbox {
+  background-color: grey;
+  width: 100%;
+  height: 100px;
+
+}
+
+.classes {
+  background-color: grey;
+  width: 50%;
+  height: 75px;
+  margin-left: 30%;
+}
+
+li {
+  display: inline;
+  float: left;
+  text-align: center;
+}
