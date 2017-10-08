@@ -1,19 +1,13 @@
 .classesbox {
-  background-color: grey;
+  background-image: url(../../assets/pattern/dark1.jpg);
   width: 100%;
-  height: 100px;
-
-}
-
-.classes {
-  background-color: grey;
-  width: 50%;
-  height: 75px;
-  margin-left: 30%;
-}
-
-li {
-  display: inline;
-  float: left;
+  border-top: 2px solid darkgreen;
+  border-bottom: 2px solid darkgreen;
+  box-shadow: 2px 2px 5px darkgreen;
+  padding: 15px 0;
   text-align: center;
+}
+
+a {
+  padding: 3px;
 }
