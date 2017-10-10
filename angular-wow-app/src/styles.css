@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   margin:0;
+
+  /* The image used */
+  background-image: url("assets/background.jpg");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
