@@ -1,9 +1,9 @@
 .classesbox {
   background-image: url(../../assets/pattern/dark1.jpg);
   width: 100%;
-  border-top: 2px solid #85c854;
-  border-bottom: 2px solid #85c854;
-  box-shadow: 2px 2px 5px #85c854;
+  border-top: 2px solid #11ac82;
+  border-bottom: 2px solid #11ac82;
+  box-shadow: 2px 2px 5px #11ac82;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -22,7 +22,7 @@
   height: 500px;
   padding-bottom: 5px;
   margin-top: 200px;
-  border-top: 2px solid #85c854;
+  border-top: 1px solid #11ac82;
   padding-top: 5px;
 }
 
