@@ -1,5 +1,4 @@
-
-  <div class="classesbox">
+<div class="classesbox">
       <a routerLink="warrior" routerLinkActive="active" >
         <img src="../../../assets/icons/warrior.png">
       </a>
@@ -44,4 +43,9 @@
         <img src="../../../assets/icons/dämonenjäger.png">
       </a>
     </div>
+    <div class="scheißegal">
+      <p *ngFor="let class of classes">{{class.name}}</p>
+    </div>
+
+
 <app-warrior></app-warrior>
