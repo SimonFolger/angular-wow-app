@@ -67,14 +67,14 @@ a:link {
   text-decoration: none;
 }
 
-/* ??? Wieso gehts nicht?
-a:hover {
-    border-left:solid 1px #DBA921;
-    border-right:solid 1px #DBA921;
-    border-top:solid 1px #DBA921;
-    border-bottom:solid 1px #DBA921;
+
+img:hover {
+    border-left:solid 3px #DBA921;
+    border-right:solid 3px #DBA921;
+    border-top:solid 3px #DBA921;
+    border-bottom:solid 3px #DBA921;
 }
-*/
+
 
 a:active {
   background-color: #DBA921;
