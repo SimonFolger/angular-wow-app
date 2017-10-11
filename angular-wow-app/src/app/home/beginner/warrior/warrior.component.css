@@ -1,0 +1,60 @@
+.warriortalent {
+  width: 70%;
+  height: 70%;
+  background-color: #20150f;
+  margin: auto;
+  margin-top: 50px;
+  border-top: 8px solid #20150f;
+  border-bottom: 3px solid #20150f;
+  border-left:  8px solid #20150f;
+  border-right: 8px solid #20150f;
+  box-shadow:1px 1px 5px 5px #a9b131;
+  border-radius: 6px;
+}
+
+.special1 {
+  width: 29%;
+  height: 100%;
+  background-color: #20150f;
+  border-top: 8px solid #20150f;
+  border-bottom: 3px solid #20150f;
+  border-left:  8px solid #20150f;
+  border-right: 8px solid #20150f;
+  box-shadow:1px 1px 5px 5px #a9b131;
+  border-radius: 6px;
+  float: left;
+}
+
+.special2 {
+  width: 29%;
+  height: 100%;
+  background-color: #20150f;
+  border-top: 8px solid #20150f;
+  border-bottom: 3px solid #20150f;
+  border-left:  8px solid #20150f;
+  border-right: 8px solid #20150f;
+  box-shadow:1px 1px 5px 5px #a9b131;
+  border-radius: 6px;
+  float: right;
+}
+
+.special3 {
+  width: 29%;
+  height: 100%;
+  background-color: #20150f;
+  border-top: 8px solid #20150f;
+  border-bottom: 3px solid #20150f;
+  border-left:  8px solid #20150f;
+  border-right: 8px solid #20150f;
+  box-shadow:1px 1px 5px 5px #a9b131;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.specific {
+  width: 70%;
+  height: 15%;
+  background-color: #0f0f0f;
+  margin: auto;
+  margin-top: 10%;
+}

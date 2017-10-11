@@ -1,0 +1,11 @@
+.classesbox {
+  background-image: url(../../../assets/pattern/dark1.jpg);
+  width: 100%;
+  border-top: 2px solid #a9b131;
+  border-bottom: 2px solid #a9b131;
+  box-shadow: 2px 2px 5px #a9b131;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding: 20px;
+}

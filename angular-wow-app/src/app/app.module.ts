@@ -7,6 +7,9 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import { TalentsComponent } from './talents/talents.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BeginnerComponent} from './home/beginner/beginner.component';
+import { WarriorComponent} from './home/beginner/warrior/warrior.component';
+
 
 
 const appRoutes: Routes = [
@@ -14,8 +17,14 @@ const appRoutes: Routes = [
       path: 'home',
       component: HomeComponent },
   {
+      path: 'home/beginner',
+      component: BeginnerComponent },
+  {
       path: 'talents',
       component: TalentsComponent },
+  {
+      path: 'home/beginner/warrior',
+      component: WarriorComponent },
   {
       path: '',
       redirectTo: '/home',
@@ -33,6 +42,8 @@ const appRoutes: Routes = [
     NavigationComponent,
     HomeComponent,
     TalentsComponent,
+    BeginnerComponent,
+    WarriorComponent,
     PageNotFoundComponent
   ],
   imports: [

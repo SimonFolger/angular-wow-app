@@ -19,7 +19,9 @@
   border-bottom: 3px solid #20150f;
   border-left:  8px solid #20150f;
   border-right: 8px solid #20150f;
-  border-radius: 10px;
+  box-shadow: 1px 1px 10px #a9b131;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 
 }
 
@@ -34,6 +36,7 @@ video {
   background-color: #0f0f0f;
   background-color: black;
   text-align: center;
+  box-shadow: 1px 1px 10px #a9b131;
 }
 
 .beginner {
@@ -42,6 +45,7 @@ video {
   height: 500px;
   padding-bottom: 5px;
   border-top: 2px solid #20150f;
+  box-shadow: 1px 1px 10px #a9b131;
 }
 
 .green {
