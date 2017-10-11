@@ -1,17 +1,22 @@
-.header-toggle {
-    width: 100px;
-    height: 50px;
-    position: absolute;
+.navigation {
+    display: none;
+    width: 100%;
+    background-color: white;
+    position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 1px solid grey;
-    border-top: none;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    height: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.nav-item {
+    display: inline-block;
+    width: 10%;
     text-align: center;
 }
-.header-toggle a img {
-    width: 45px;
-    height: 45px;
+.nav-item:hover {
+    background-color: yellow;
+}
+a {
+    line-height: 50px;
+    font-weight: bold;
 }

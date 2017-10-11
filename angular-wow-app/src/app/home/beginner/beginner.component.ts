@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Class } from '../../class'
+import { Http, Response, Headers }    from '@angular/http';
+import 'rxjs/add/operator/map'
 
 @Component({
   selector: 'app-beginner',
@@ -6,10 +9,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./beginner.component.css']
 })
 export class BeginnerComponent implements OnInit {
+  
+  classes: Class[] = null;
 
-  constructor() { }
+  constructor(private http: Http) {
+  }
 
   ngOnInit() {
+    this.getClasses();
+  }
+  
+  getClasses() {
+    return this.http.get('https://eu.api.battle.net/wow/data/character/classes?locale=de_DE&apikey=rzhvgu7axjcarwesheuusezw4d6jt2cu')
+        .subscribe(data => {
+          this.classes = data.json().classes;
+          console.log(this.classes);
+        })
   }
 
 }

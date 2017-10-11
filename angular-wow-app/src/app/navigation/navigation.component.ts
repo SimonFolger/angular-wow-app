@@ -8,14 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class NavigationComponent implements OnInit {
 
   constructor() { }
-  
-  showNav = false;
 
   ngOnInit() {
   }
   
-  toggleNav() {
-    this.showNav = !this.showNav;
-  }
+ 
 
 }

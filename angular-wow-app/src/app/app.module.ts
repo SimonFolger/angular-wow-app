@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
@@ -9,6 +10,7 @@ import { TalentsComponent } from './talents/talents.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BeginnerComponent} from './home/beginner/beginner.component';
 import { WarriorComponent} from './home/beginner/warrior/warrior.component';
+import { WowDataService } from './wow-data.service'
 
 
 
@@ -48,9 +50,10 @@ const appRoutes: Routes = [
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [WowDataService],
   bootstrap: [AppComponent]
 })
 
