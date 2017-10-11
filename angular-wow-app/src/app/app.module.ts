@@ -10,6 +10,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { BeginnerComponent} from './home/beginner/beginner.component';
 import { WarriorComponent} from './home/beginner/warrior/warrior.component';
 
+import { BeginnerRoutingModule} from './home/beginner/beginnerrouting.module';
+
 
 
 const appRoutes: Routes = [
@@ -48,7 +50,9 @@ const appRoutes: Routes = [
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
+    BeginnerRoutingModule,
     BrowserModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
