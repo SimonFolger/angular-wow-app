@@ -6,7 +6,10 @@ import 'rxjs/add/operator/map'
 @Component({
   selector: 'app-beginner',
   templateUrl: './beginner.component.html',
-  styleUrls: ['./beginner.component.css']
+  styleUrls: ['./beginner.component.css'],
+  template:  `
+   <h2>Welcome here niggaz</h2>
+ `
 })
 export class BeginnerComponent implements OnInit {
   
@@ -27,5 +30,6 @@ export class BeginnerComponent implements OnInit {
         })
   }
 
+
+
 }
- 

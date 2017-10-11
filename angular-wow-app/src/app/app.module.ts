@@ -12,6 +12,8 @@ import { BeginnerComponent} from './home/beginner/beginner.component';
 import { WarriorComponent} from './home/beginner/warrior/warrior.component';
 import { WowDataService } from './wow-data.service'
 
+import { BeginnerRoutingModule} from './home/beginner/beginnerrouting.module';
+
 
 
 const appRoutes: Routes = [
@@ -51,7 +53,10 @@ const appRoutes: Routes = [
   imports: [
     RouterModule.forRoot(appRoutes),
     BrowserModule,
-    HttpModule
+    HttpModule,
+    BeginnerRoutingModule,
+    BrowserModule
+
   ],
   providers: [WowDataService],
   bootstrap: [AppComponent]
