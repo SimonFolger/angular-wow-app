@@ -3,4 +3,5 @@ export class Class {
     mask: number;
     powerType: string;
     name: string;
+    filePath: string;
 }

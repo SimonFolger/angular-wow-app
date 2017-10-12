@@ -9,8 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { TalentsComponent } from './talents/talents.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BeginnerComponent} from './home/beginner/beginner.component';
-import { WarriorComponent} from './home/beginner/warrior/warrior.component';
-import { WowDataService } from './wow-data.service'
+import { WowDataService } from './wow-data.service';
+import { ClassComponent } from './home/beginner/class/class.component';
 
 
 
@@ -20,14 +20,14 @@ const appRoutes: Routes = [
       path: 'home',
       component: HomeComponent },
   {
-      path: 'home/beginner',
+      path: 'beginner',
       component: BeginnerComponent },
   {
       path: 'talents',
       component: TalentsComponent },
   {
-      path: 'home/beginner/warrior',
-      component: WarriorComponent },
+      path: 'beginner/class/:id',
+      component: ClassComponent },
   {
       path: '',
       redirectTo: '/home',
@@ -46,14 +46,13 @@ const appRoutes: Routes = [
     HomeComponent,
     TalentsComponent,
     BeginnerComponent,
-    WarriorComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ClassComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
     BrowserModule,
     HttpModule
-
   ],
   providers: [WowDataService],
   bootstrap: [AppComponent]
