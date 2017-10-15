@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { BeginnerComponent} from './home/beginner/beginner.component';
 import { WowDataService } from './wow-data.service';
 import { ClassComponent } from './home/beginner/class/class.component';
+import { SimonTestComponent } from './simon-test/simon-test.component';
 
 
 
@@ -22,6 +23,9 @@ const appRoutes: Routes = [
   {
       path: 'beginner',
       component: BeginnerComponent },
+  {
+      path: 'simontest',
+      component: SimonTestComponent },
   {
       path: 'talents',
       component: TalentsComponent },
@@ -47,7 +51,8 @@ const appRoutes: Routes = [
     TalentsComponent,
     BeginnerComponent,
     PageNotFoundComponent,
-    ClassComponent
+    ClassComponent,
+    SimonTestComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
